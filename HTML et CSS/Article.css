@@ -1,0 +1,120 @@
+body
+{
+  margin: auto;
+  max-width: 60rem;
+  background-color : rgb(160,160,160);
+  overflow : scroll;
+}
+
+header
+{
+padding-top: 2em;
+}
+
+
+.navi
+{
+padding-top : 10em;
+
+}
+
+
+header img
+{
+float : right;		
+border-style : none;
+}	
+
+
+
+h1
+{
+float: left;
+padding-left : 5em;
+padding-top : 0.5em;
+font-size : 250%;
+}
+
+h2
+{
+font-style : italic;
+font-size : 30%;
+}
+
+.navi ul
+{
+margin : 0;
+padding: 0;
+background-color: rgb(66, 50, 39);
+overflow: hidden;
+list-style-type: none;
+
+}
+
+.navi li 
+{
+float: left;
+}
+
+.navi li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.navi a:hover
+{
+background-color: rgb(113, 217, 224);
+}
+
+header a:hover
+{
+background-color : white;
+}
+
+a:focus
+{
+background-color : green;
+}
+
+.barreRecherche
+{
+padding-top : 0.75em;
+padding-left: 29.08em;
+}	
+
+.aPropos 
+{
+padding-left: 0.5em;
+}
+
+img
+{
+margin-top:1em;
+margin-left: 10em;
+border-style : solid;
+}
+
+p 
+{
+padding-left : 10em;
+}
+
+textarea
+{
+padding : 0;
+margin-left : 25em;
+margin-top : 1em;
+}
+
+button
+{
+margin-left : 25em;
+}
+
+
+
