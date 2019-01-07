@@ -84,7 +84,7 @@ background-color : green;
 .barreRecherche
 {
 padding-top : 0.75em;
-padding-left: 29.08em;
+padding-left: 27.8em;
 }	
 
 .aPropos 
@@ -116,6 +116,18 @@ bottom : 290px;
 border-style : none;
 }
 
+.promo img
+{
+position : absolute;
+z-index : +2;
+right : 150px;
+left : 150px;
+top : 300px;
+bottom : 300px;
+border-style : none;
+}
+
+
 .S1_video img
 {
 position : absolute;
@@ -128,18 +140,18 @@ bottom : 374px;
 
 .S1_fig1 img
 {
-left : 100px;
-right : 100px;
-top : 395px;
-bottom : 395px;
+left : 42px;
+right : 42px;
+top : 400px;
+bottom : 400px;
 }
 
 .S1_fig2 img
 {
-left : 1095px;
-right : 1095px;
-top : 395px;
-bottom : 395px;
+left : 1153px;
+right : 1153px;
+top : 400px;
+bottom : 400px;
 }
 
 
@@ -170,6 +182,17 @@ bottom : 600px;
 border-style : none;
 }
 
+.promo2 img
+{
+position : absolute;
+z-index : +2;
+right : 150px;
+left : 150px;
+top : 650px;
+bottom : 600px;
+border-style : none;
+}
+
 .S2_video img
 {
 position : absolute;
@@ -182,16 +205,16 @@ bottom : 725px;
 
 .S2_fig1 img
 {
-left : 100px;
-right : 100px;
+left : 42px;
+right : 42px;
 top : 760px;
 bottom : 7600px;
 }
 
 .S2_fig2 img
 {
-left : 1095px;
-right : 1095px;
+left : 1152px;
+right : 1152px;
 top : 760px;
 bottom : 7600px;
 }
@@ -200,6 +223,7 @@ bottom : 7600px;
 {
 background-color : yellow;
 margin-top : 19em;
+margin-bottom: 1em;
 padding-top : 3.2em;
 list-style-type: none;
 }
@@ -220,30 +244,55 @@ bottom : 1010px;
 border-style : none;
 }
 
+
+.promo3 img
+{
+position : absolute;
+z-index : +2;
+right : 150px;
+left : 150px;
+top : 1010px;
+bottom : 1010px;
+border-style : none;
+}
 .S3_video img
 {
 position : absolute;
 z-index: -1;
 left : 192px;
 right : 192px;
-top : 1050px;
-bottom : 1050px;
+top : 1102px;
+bottom : 1102px;
 }
 
 .S3_fig1 img
 {
-left : 100px;
-right : 100px;
-top : 1110px;
-bottom : 1110px;
+left : 42px;
+right : 42px;
+top : 1065px;
+bottom : 1065px;
 }
 
 .S3_fig2 img
 {
-left : 1095px;
-right : 1095px;
-top : 1110px;
-bottom : 1110px;
+left : 1152px;
+right : 1152px;
+top : 1065px;
+bottom : 1065px;
+
+
+}
+
+.footer 
+{
+   position: fixed;
+   z-index: +1;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
 }
 
 
