@@ -2,11 +2,11 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8"/>
-    <meta name="description" lang="fr" content="Page detaillée d'un article">
-    <link rel="stylesheet" type="text/css" href="Article.css">
+    <meta name="description" lang="fr" content="Page livraison">
+    <link rel="stylesheet" type="text/css" href="Livraison.css">
 	<meta name="viewport" content="width=device-width">
 
-    <title>ARTICLE</title>
+    <title>LIVRAISON</title>
   </head>	
   <body>
   
@@ -16,7 +16,7 @@
 	
 		<img src="https://giffiles.alphacoders.com/297/2970.gif" height="105" width="200" alt = "gif chat">
 		
-		<h1>  SHOPMANGA </h1>
+		<h1> SHOPMANGA </h1>
 		
 		
   </header>
@@ -46,25 +46,85 @@
 		</ul> 
 		
 	 </div>
-  
-  <img src="https://static.fnac-static.com/multimedia/Images/FR/MDM/3e/a5/38/3712318/1540-1/tsp20180918140633/Figurine-Dragon-Ball-Super-Beerus-17-cm.jpg" height="400" width="600" alt="figurine1 beerus">
-  <p> Beerus, <em> Dieu de la Destruction </em> </p>
-  <table>
+	 
+<div class ="formulaire1"> 
+
+
+<!--formulaire basique-->
+<table>
 			<tr>
-				<td> <textarea placeholder="Insérez un commentaire .. (Facultatif)"></textarea> </td>
+				<!--nom--> <td><label for ="name"> Nom  </label> </td> 
+				<!--prenom--><td><label for="lastname"> Prénom  </label></td>		
+			</tr>
+			<tr>
+				<td><input id="name"></td> <td><input id="lastname"></td>
+				
 			</tr>
 			
-  </table>
-  <form action ="Livraison.html"><button> Ajouter au panier</button></form>
-  
-  <div class = "footer">
+			
+			<tr>
+				<!--rue--><td><label for ="rue">Rue</label></td>
+				<!--ville--><td><label for="ville">Ville</label></td>
+			</tr>
+			<tr>
+				<td><input id="rue"></td> <td><input id="ville"></td>
+			</tr>
+			
+			<tr>
+				<!--pays--><td><label for="pays">Pays</label></td>
+				<!--telephone--><td><label for="number">Téléphone</label></td> 
+			</tr>
+			<tr>
+				<td><input id="pays"></td> <td><input id="number"></td>
+			</tr>
+				
+</table>
+
+</div>
+
+<section class = "formulaire2">
+<table>
+			
+<!--formulaire coordonnées bancaires-->
+	
+			<tr>
+				
+				<!--numéro carte--><td> <label for ="cardnumber">Numéro carte</label></td>
+				<!--date d'expiration--><td><label for="expirationdate">Date d'expiration</label></td>
+				<!--CVV--><td><label for="CVV">CVV</label></td>
+				<!--titulaire carte--><td><label for="titulaire">Titulaire carte</label></td>
+				
+			</tr>
+			
+<!--Commande-->
+			<tr>
+				<td><input id="cardnumber"></td><td><input id="expirationdate"></td><td><input id="CVV"></td><td><input id="titulaire"></td>
+			</tr>
+</table>
+</section>
+
+<table>
+
+			<tr>
+				<td> <div class ="accept"> <input type ="checkbox">J'accepte les termes et conditions liées à la commande </div></td>
+			</tr>
+			
+			<tr>
+				<td> <div class ="commande"> <button>Commander </button> </div> </td>
+			</tr>
+</table>
+
+<div class = "footer">
 		<p>&copy; 2019 ShopManga.com</p>
-  </div>
-  
-  <p> .</p>
-  <p> .</p>
-  
- 
- </body>
- </html>
-  
+</div>
+
+
+	
+
+	
+
+			
+						
+
+</body>
+</html>
