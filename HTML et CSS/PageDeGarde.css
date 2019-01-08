@@ -6,16 +6,11 @@ body
   overflow : scroll;
 }
 
+/* Bannière */
+
 header
 {
 padding-top: 2em;
-}
-
-
-.navi
-{
-padding-top : 10em;
-
 }
 
 
@@ -35,10 +30,12 @@ padding-top : 0.5em;
 font-size : 250%;
 }
 
-h2
+/* Barre de navigation */
+
+.navi 
 {
-font-style : italic;
-font-size : 30%;
+padding-top : 10em;
+
 }
 
 .navi ul
@@ -84,13 +81,15 @@ background-color : green;
 .barreRecherche
 {
 padding-top : 0.75em;
-padding-left: 27.8em;
+padding-left: 26.7em;
 }	
 
 .aPropos 
 {
 padding-left: 0.5em;
 }
+
+/* Produits en promotion */
 
 .prod1
 {
@@ -282,6 +281,7 @@ bottom : 1065px;
 
 
 }
+/* Copyright */
 
 .footer 
 {
@@ -294,6 +294,428 @@ bottom : 1065px;
    color: white;
    text-align: center;
 }
+
+/* Adaptation média */
+
+
+
+
+@media (max-width : 1930px) and (min-height : 964px)
+{		
+		/*pc*/	
+		/* Réglages disposition produits en promotion */
+
+		.prod1
+		{
+		padding-top : 5em;
+		}
+
+		.prod1 ul
+		{
+		padding: 0;
+		margin : 0;
+		background-color : green;
+		overflow : hidden;
+		}
+
+		.prod1 img 
+		{
+		position : absolute;
+		z-index : +1;
+		right : 820px;
+		left : 820px;
+		top : 290px;
+		bottom : 290px;
+		border-style : none;
+		}
+
+		.promo img
+		{
+		position : absolute;
+		z-index : +2;
+		right : 425px;
+		left : 425px;
+		top : 300px;
+		bottom : 300px;
+		border-style : none;
+		}
+
+
+		.S1_video img
+		{
+		position : absolute;
+		z-index: -1;
+		left : 472px;
+		right : 472px;
+		top : 374px;
+		bottom : 374px;
+		}
+
+		.S1_fig1 img
+		{
+		left : 322px;
+		right : 322px;
+		top : 400px;
+		bottom : 400px;
+		}
+
+		.S1_fig2 img
+		{
+		left : 1432px;
+		right : 1432px;
+		top : 400px;
+		bottom : 400px;
+		}
+
+
+
+		.prod2 ul
+		{
+		background-color : blue;
+		margin-top : 19em;
+		padding-top : 3.2em;
+		list-style-type: none;
+		}
+
+		.prod2 li
+		{
+		float : left;
+		}
+
+
+
+		.prod2 img
+		{
+		position : absolute;
+		z-index : +1;
+		right : 820px;
+		left : 820px;
+		top : 650px;
+		bottom : 600px;
+		border-style : none;
+		}
+
+		.promo2 img
+		{
+		position : absolute;
+		z-index : +2;
+		right : 425px;
+		left : 425px;
+		top : 650px;
+		bottom : 600px;
+		border-style : none;
+		}
+
+		.S2_video img
+		{
+		position : absolute;
+		z-index: -1;
+		left : 472px;
+		right : 472px;
+		top : 725px;
+		bottom : 725px;
+		}
+
+		.S2_fig1 img
+		{
+		left : 322px;
+		right : 322px;
+		top : 760px;
+		bottom : 7600px;
+		}
+
+		.S2_fig2 img
+		{
+		left : 1432px;
+		right : 1432px;
+		top : 760px;
+		bottom : 7600px;
+		}
+
+		.prod3 ul
+		{
+		background-color : yellow;
+		margin-top : 19em;
+		margin-bottom: 1em;
+		padding-top : 3.2em;
+		list-style-type: none;
+		}
+
+		.prod3 li
+		{
+		float : left;
+		}
+
+		.prod3 img
+		{
+		position : absolute;
+		z-index : +1;
+		right : 820px;
+		left : 820px;
+		top : 1010px;
+		bottom : 1010px;
+		border-style : none;
+		}
+
+
+		.promo3 img
+		{
+		position : absolute;
+		z-index : +2;
+		right : 425px;
+		left : 425px;
+		top : 1010px;
+		bottom : 1010px;
+		border-style : none;
+		}
+		.S3_video img
+		{
+		position : absolute;
+		z-index: -1;
+		left : 472px;
+		right : 472px;
+		top : 1102px;
+		bottom : 1102px;
+		}
+
+		.S3_fig1 img
+		{
+		left : 322px;
+		right : 322px;
+		top : 1065px;
+		bottom : 1065px;
+		}
+
+		.S3_fig2 img
+		{
+		left : 1432px;
+		right : 1432px;
+		top : 1065px;
+		bottom : 1065px;
+
+
+		}
+}
+
+@media (min-width : 360px) and (max-width : 800px)
+{
+		/* Smartphone s9 */
+		/*Responsive design bannière*/
+		
+		header img
+		{
+		float : right;		
+		border-style : none;
+		width : 40%;
+		height : 75px;
+		}
+		
+		h1
+		{
+		float: left;
+		padding-left : 2em;
+		padding-top : 0.5em;
+		font-size : 135%;
+		}
+		
+		.navi 
+		{
+		padding-top : 7em;
+		width : 100%;
+		height : 22px;
+		}
+		
+		.navi li 
+		{
+		float: left;
+		font-size : 43.6%
+		}
+		
+		.barreRecherche
+		{
+		padding-top : 0.9em;
+		padding-left: 2em;
+		}	
+		
+		
+		/*Responsive design produits en promotion*/
+		
+		.prod1
+		{
+		padding-top : 3em;
+		}
+
+		.prod1 img 
+		{
+		position : absolute;
+		z-index : +1;
+		right : 100px;
+		left : 100px;
+		top : 200px;
+		bottom : 200px;
+		border-style : none;
+		}
+
+		.promo img
+		{
+		position : absolute;
+		z-index : +2;
+		right : 300px;
+		left : 300px;
+		top : 255px;
+		bottom : 255px;
+		border-style : none;
+		height : 50px;
+		width : 20%;
+		}
+
+
+		.S1_video img
+		{
+		position : absolute;
+		z-index: -1;
+		right : 2px;
+		left : 2px;
+		top : 285px;
+		bottom : 285px;
+		width : 70%;
+		height : 201px;
+		}
+
+		.S1_fig1 img
+		{
+		left : 255px;
+		right : 255px;
+		top : 286px;
+		bottom : 286px;
+		z-index:-1;
+		}
+
+		.S1_fig2 img
+		{
+		left : 255px;
+		right : 255px;
+		top : 286px;
+		bottom : 286px;
+		z-index:-1;
+		}
+		
+		
+		.prod2 img
+		{
+		position : absolute;
+		z-index : +1;
+		right : 100px;
+		left : 100px;
+		top : 550px;
+		bottom : 550px;
+		border-style : none;
+		}
+
+		.promo2 img
+		{
+		position : absolute;
+		z-index : +2;
+		right : 300px;
+		left : 300px;
+		top : 595px;
+		bottom : 595px;
+		border-style : none;
+		height : 50px;
+		width : 20%;
+		}
+
+		.S2_video img
+		{
+		position : absolute;
+		z-index: -1;
+		right : 2px;
+		left : 2px;
+		top : 640px;
+		bottom : 640px;
+		width : 70%;
+		height : 201px;
+		}
+
+		.S2_fig1 img
+		{
+		left : 255px;
+		right : 255px;
+		top : 640px;
+		bottom : 640px;
+		height : 201px;
+		}
+
+		.S2_fig2 img
+		{
+		left : 255px;
+		right : 255px;
+		top : 640px;
+		bottom : 640px;
+		height : 201px;
+		}
+		
+		.prod3 img
+		{
+		position : absolute;
+		z-index : +1;
+		right : 100px;
+		left : 100px;
+		top : 900px;
+		bottom : 900px;
+		border-style : none;
+		}
+
+
+		.promo3 img
+		{
+		position : absolute;
+		z-index : +2;
+		right : 300px;
+		left : 300px;
+		top : 945px;
+		bottom : 945px;
+		border-style : none;
+		height : 50px;
+		width : 20%;
+		}
+		.S3_video img
+		{
+		position : absolute;
+		z-index: -1;
+		right : 2px;
+		left : 2px;
+		top : 995px;
+		bottom : 995px;
+		width : 70%;
+		height : 201px;
+		}
+
+		.S3_fig1 img
+		{
+		left : 255px;
+		right : 255px;
+		top : 995px;
+		bottom : 955px;
+		height : 201px;
+		}
+
+		.S3_fig2 img
+		{
+		left : 255px;
+		right : 255px;
+		top : 995px;
+		bottom : 955px;
+		height : 201px;
+		}
+}
+				
+				
+						
+
+
+
+
 
 
 	
